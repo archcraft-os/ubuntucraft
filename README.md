@@ -15,7 +15,8 @@
 - Turns your Ubuntu into **Archcraft**
 - Fully configured `openbox` window manager
 - Fully configured `bspwm` window manager
-- Multiple **themes/styles** for both WMs
+- Fully configured `i3wm` window manager **`NEW`**
+- Multiple **themes/styles** for both (openbox and bspwm) WMs
 - Everything else that Archcraft offers
 
 > `Ubuntucraft` is not an ISO or Ubuntu based distribution.
@@ -25,8 +26,22 @@
 **`Important`** : Ubuntucraft is created on the top of `Ubuntu 22.04 LTS Desktop` and It's ***recommended*** that you install this on a fresh installation of Ubuntu 22.04 LTS.
 > It may work on older and newer version of Ubuntu as well, It's just not tested on those version.
 
+**First Release :** `August 29, 2023`
+**Last Updated :** `January 14, 2024`
 
-**Last Updated :** `August 29, 2023`
+<details>
+<summary><b>Changelogs</b></summary>
+
+### Changelog : `January 14, 2024 Update`
+- Added `i3wm` window manager
+- Migrated alacritty config to `toml`
+- Updated scripts related to alacritty
+- Fixed some pipemenus for `openbox`
+- Added better multi-monitor config in `bspwm`
+- `python2` is no longer a dependency
+- Bug fixes, etc
+
+</details>
 
 ## Installation
 
@@ -105,8 +120,23 @@
 
 </details>
 
+<!-- i3wm -->
+
+<details>
+<summary><b>i3wm Desktop</b></summary>
+
+| Rofi : Apps | Terminal | File Manager | Editor | Rofi : network | Rofi : bluetooth |
+| --- | --- | --- | --- | --- | --- |
+|![img](./images/i3wm-desktop/i3wm_desk_1.png)|![img](./images/i3wm-desktop/i3wm_desk_2.png)|![img](./images/i3wm-desktop/i3wm_desk_3.png)|![img](./images/i3wm-desktop/i3wm_desk_4.png)|![img](./images/i3wm-desktop/i3wm_desk_5.png)|![img](./images/i3wm-desktop/i3wm_desk_6.png)|
+
+| Rofi : run | Rofi : music | Rofi : power | Rofi : screenshot | CLI apps | Misc |
+| --- | --- | --- | --- | --- | --- |
+|![img](./images/i3wm-desktop/i3wm_desk_7.png)|![img](./images/i3wm-desktop/i3wm_desk_8.png)|![img](./images/i3wm-desktop/i3wm_desk_9.png)|![img](./images/i3wm-desktop/i3wm_desk_10.png)|![img](./images/i3wm-desktop/i3wm_desk_11.png)|![img](./images/i3wm-desktop/i3wm_desk_12.png)|
+
+</details>
+
 ---
 
-- For **Keybindings**, See `~/.config/openbox/rc.xml` and `~/.config/bspwm/sxhkdrc`.
+- For **Keybindings**, See `~/.config/openbox/rc.xml`, `~/.config/bspwm/sxhkdrc` and `~/.config/i3/config.d/02_keybindings.conf`.
 - I Hope you'll enjoy this project.
 - Thank you for supporting Archcraft.
