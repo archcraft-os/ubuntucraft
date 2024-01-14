@@ -27,6 +27,7 @@
 > It may work on older and newer version of Ubuntu as well, It's just not tested on those version.
 
 **First Release :** `August 29, 2023`
+
 **Last Updated :** `January 14, 2024`
 
 <details>
